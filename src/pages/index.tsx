@@ -20,7 +20,8 @@ const Home = () => {
 
       <p>
         Well, you've kinda got me in a bad spot here... This is clearly not the
-        super cool/fresh/funky website I hoped to show you :(
+        super cool, fresh and <span className="funky">funky</span> website I
+        hoped to show you :(
       </p>
 
       <p>I guess at least it's fast and responsive, right? ⚡️</p>
