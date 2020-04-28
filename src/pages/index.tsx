@@ -13,14 +13,14 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <main>
       <h1>
         Hey there, friend! <span className="emoji">🧙‍♂️</span>
       </h1>
 
       <p>
-        Well, this is awkward... This is clearly not the super cool/fresh/funky
-        website I hoped to show you :(
+        Well, you've kinda got me in a bad spot here... This is clearly not the
+        super cool/fresh/funky website I hoped to show you :(
       </p>
 
       <p>I guess at least it's fast and responsive, right? ⚡️</p>
@@ -29,9 +29,9 @@ const Home = () => {
 
       <ol>
         <li>
-          You can either wait for my new website and checkout my stuff, projects
-          and courses! <br /> ETA: {timeRemaining} remaining (be sure to grab a
-          coffee ☕️)
+          You can either wait for my new website and checkout my techy stuff,
+          projects and courses <br /> ETA: {timeRemaining} remaining (be sure to
+          grab a coffee ☕️)
         </li>
         <li>
           Or you can{" "}
@@ -61,7 +61,7 @@ const Home = () => {
           </a>
         </li>
       </ol>
-    </div>
+    </main>
   );
 };
 
